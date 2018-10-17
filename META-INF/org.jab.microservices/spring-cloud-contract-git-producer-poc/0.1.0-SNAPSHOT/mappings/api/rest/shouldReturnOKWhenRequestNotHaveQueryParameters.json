@@ -1,0 +1,18 @@
+{
+  "id" : "0c9820d8-a102-446c-a271-43f9ba2557e0",
+  "request" : {
+    "url" : "/api/concept1",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"status\":\"OK\"}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "0c9820d8-a102-446c-a271-43f9ba2557e0"
+}
