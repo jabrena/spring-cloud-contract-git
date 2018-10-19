@@ -3,7 +3,7 @@ org.springframework.cloud.contract.spec.Contract.make {
     description "should return even when number input is even"
     request{
         method GET()
-        url("/api/concept1") {
+        url("/api2/concept1") {
 
         }
         headers {
