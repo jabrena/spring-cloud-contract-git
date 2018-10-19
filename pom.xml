@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.jab.microservices</groupId>
-	<artifactId>spring-cloud-contract-git-producer-poc</artifactId>
+	<artifactId>spring-cloud-contract-git-producer-poc2</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -100,11 +100,11 @@
 					path will be /groupId/artifactId/version/contracts -->
 					<contractDependency>
 						<groupId>${project.groupId}</groupId>
-						<artifactId>${project.artifactId}</artifactId>
+						<artifactId>spring-cloud-contract-git-producer-poc2</artifactId>
 						<version>${project.version}</version>
 					</contractDependency>
 					<!-- The mode can't be classpath -->
-					<contractsMode>LOCAL</contractsMode>
+					<contractsMode>REMOTE</contractsMode>
 					<basePackageForTests>com.example</basePackageForTests>
 				</configuration>
 
