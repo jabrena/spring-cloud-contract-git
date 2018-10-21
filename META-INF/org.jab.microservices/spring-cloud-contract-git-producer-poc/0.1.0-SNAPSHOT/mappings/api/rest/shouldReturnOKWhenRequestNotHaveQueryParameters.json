@@ -1,7 +1,7 @@
 {
   "id" : "98f8e5bb-a123-416e-85cf-9c70a7b07460",
   "request" : {
-    "url" : "/api2/concept1",
+    "url" : "/api/concept1",
     "method" : "GET",
     "headers" : {
       "Content-Type" : {
