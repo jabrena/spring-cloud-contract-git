@@ -1,5 +1,5 @@
 {
-  "id" : "150371ca-b6f7-472e-beb5-171991ac608c",
+  "id" : "b2d8e132-80cc-4a57-bd6c-2f3107d12778",
   "request" : {
     "url" : "/api2/concept1",
     "method" : "GET",
@@ -14,5 +14,5 @@
     "body" : "{\"status\":\"OK\"}",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "150371ca-b6f7-472e-beb5-171991ac608c"
+  "uuid" : "b2d8e132-80cc-4a57-bd6c-2f3107d12778"
 }
